@@ -43,6 +43,7 @@ TODO:
 | ----------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | `x`, `X`                            | Normal                  | Delete the character under (`x`) or before (`X`) the cursor.                                                                     |
 | `d`, `D`                            | Normal                  | Delete from the cursor to a motion (`d`) or to the end of the line (`D`).                                                        |
+| `dd`, `[count]dd`                   | Normal                  | Delete the current line (`dd`) or `[count]` lines (`[count]dd`).                                                                 |
 | `c`, `C`, `c$`                      | Normal                  | Change (delete and enter Insert mode) from the cursor to a motion (`c`) or to the end of the line (`C`, `c$`).                   |
 | `y`, `Y`                            | Normal                  | Yank (copy) text from the cursor to a motion (`y`) or yank the entire line (`Y`).                                                |
 | `r`, `R`                            | Normal                  | Replace a single character under the cursor (`r`) or enter Replace mode under the cursor to overwrite multiple characters (`R`). |
